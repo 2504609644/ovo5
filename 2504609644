@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Liuma Mahjong</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            background-color: #fff0f5;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 400px;
+            margin: auto;
+            background: #ffdde1;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        label, input, select, textarea {
+            width: 100%;
+            margin: 5px 0;
+            font-size: 16px;
+        }
+        button {
+            background: #ff6f91;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background: #ff3b6f;
+        }
+        .cute-header {
+            font-size: 30px;
+            color: #ff3b6f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cute-header">🎀 (՞_   ̫ _՞)ᐝ</div>
+        
+        <form action="mailto:2504609644@qq.com" method="post" enctype="multipart/form-data">
+            <label for="size">Size:</label>
+            <select id="size" name="size">
+                <option value="4x5.5cm">Mini 4x5.5cm</option>
+                <option value="5.5x8.5cm">Standard 5.5x8.5cm</option>
+                <option value="5cm">Round 5cm</option>
+                <option value="4.5cm">Heart 4.5cm</option>
+                <option value="5.5x5cm">CD Tape 5.5x5cm</option>
+                <option value="6x4.2cm">Standee 6x4.2cm</option>
+                <option value="3.7x5.5cm">Love Letter/Diary 3.7x5.5cm</option>
+                <option value="other">Other (Please specify below ๑'ꇴ'๑)</option>
+</select>
+            
+            <label for="color">Liquid Sand Color:</label>
+            <input type="text" id="color" name="color" placeholder="e.g., Pink, Blue">
+            
+            <label for="sticker">Preferred Sticker Style:</label>
+            <input type="text" id="sticker" name="sticker" placeholder="e.g., Cute, Minimalist, Blue theme...">
+            <label for="contact">Contact Information:</label>
+            <input type="text" id="contact" name="contact" placeholder="WeChat/QQ/Phone/Email">
+            
+            <label for="extra">Other Requests ๑⃙⃘´༥`๑⃙⃘</label>
+            <textarea id="extra" name="extra" rows="3" placeholder="Preferred Style / Desired Look / Other ✨"></textarea>
+            
+            <label for="image">Preferred Pattern Image:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+            
+            <button type="submit">Submit Customization</button>
+        </form>
+    </div>
+</body>
+</html>
